@@ -13,6 +13,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Fira Code Light";
+    src: url("assets/fonts/FiraCode/Montserrat-Italic-VariableFont_wght.ttf");
+    font-weight: normal;
+}
+
 *::selection{
     color: black;
     background-color: yellow;
@@ -23,12 +29,23 @@ h1{
     font-family: "Fira Code";
     color: white;
     text-align: center;
+    font-size: 40px;
+    margin: 0px;
 }
 
 h2{
+    font-family: "Fira Code Light";
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 2px;
+}
+
+h3{
     font-family: "Fira Code Regular";
     color: white;
     margin: auto;
+    font-size: 50px;
 }
 
 body{

@@ -17,20 +17,34 @@
 </head>
     <body>
         <h1>Offline ScoreBoard</h1>
+        <h2>Always use horizontally</h2>
+
+        //
+        //points
+        //
         <div class="pointsdiv">
         <div class="localdiv">
-            <h2 class="local">LOCAL</h2>
+            <h3 class="local">LOCAL</h3>
             <button class="btn" onclick="remove('lpoints', 'lpoints')">-</button>
             <input type="number" id="lpoints" name="lpoints" class="points" readonly="true" value="0" aria-label="Local points">
             <button class="btn" onclick="add('lpoints', 'lpoints')">+</button>
         </div>
 
         <div class="guestdiv">
-            <h2 class="guest">GUEST</h2>
+            <h3 class="guest">GUEST</h3>
             <button class="btn" onclick="remove('gpoints', 'gpoints')">-</button>
             <input type="number" id="gpoints" name="gpoints" class="points" readonly="true" value="0" aria-label="Guest points">
             <button class="btn" onclick="add('gpoints', 'gpoints')">+</button>
         </div>
+        </div>
+
+        //
+        //fouls
+        //
+        <div class="foulsdiv">
+            <div class="localfouls">
+
+            </div>
         </div>
     </body>
 </html>
