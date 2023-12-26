@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(assets/fonts/ttf/FiraCode-SemiBold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Fira Code";
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+label{
+    font-family: "Fira Code";
+    margin-bottom: 3px;
+    color: white;
+}
+
+div{
+    
+    display: inline;
+}
+
+.local{
+    text-align: left;
+}
+.guest{
+    text-align: end;
+}
+
+body{
+    background-color: black;
+}
+
+.points{
+    background-color: black;
+    border-color: white;
+    color: yellow;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.points::-webkit-inner-spin-button{
+    opacity: 1;
+}
+
+.points::selection{
+    color: black;
+    background-color: yellow;
+}

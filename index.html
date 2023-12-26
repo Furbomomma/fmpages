@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Yncor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furbomomma</title>
+    <title>Online ScoreBoard</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
-        <h1>Furbomomma</h1>
-        <p>Java programmer</p>
-        <h3>Some of my projects:</h3>
-        <a href="projects/CalcPro.jar">Calculator</a>
-        <br>
-        <a href="projects/Text2Binary.jar">Text convertor to binary</a>
-</body>
-<link rel="stylesheet" href="style.css">
+    <body>
+        <h1>Online ScoreBoard</h1>
+        <div class="local">
+            <label>LOCAL</label>
+            <input type="number" name="lpoints" value="0" class="points" min="0">
+        </div>
+        <div class="guest">
+            <label>GUEST</label>
+            <input type="number" name="gpoints" value="0" class="points" min="0">
+        </div>
+    </body>
 </html>
