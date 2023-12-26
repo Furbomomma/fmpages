@@ -54,16 +54,12 @@ body{
 
 .localdiv{
     flex: 1;
-    text-align: center;
-    padding: 10px;
     margin: 10px;
     min-width: 250px;
 }
 
 .guestdiv{
     flex: 1;
-    text-align: center;
-    padding: 10px;
     margin: 10px;
     min-width: 250px;
 }
@@ -72,7 +68,7 @@ body{
     color: black;
     display: flex;
     flex-wrap: wrap;
-    align-self: center;
+    text-align: center;
 }
 
 .mbtn{
