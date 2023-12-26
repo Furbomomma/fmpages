@@ -23,7 +23,6 @@ h2{
     font-family: "Fira Code Regular";
     color: white;
     margin: auto;
-    margin-top: 15px;
 }
 
 body{
@@ -32,20 +31,34 @@ body{
 
 .points{
     background-color: black;
+    border-style: solid;
     border-color: white;
     color: yellow;
     width: 100px;
     height: 100px;
-    font-size: 80px;
+    font-size: 60px;
     align-content: center;
     text-align: center;
 }
 
+.localdiv{
+    margin-left: 10px;
+}
+
+.local{
+    margin-left: 39px;
+}
+
 .points::-webkit-inner-spin-button{
-    opacity: 1;
+    display: none;
 }
 
 .points::selection{
     color: black;
     background-color: yellow;
+}
+
+.mbtn{
+    position: static;
+    object-position: top;
 }

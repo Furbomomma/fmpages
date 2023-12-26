@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online ScoreBoard</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/index.js"></script>
 </head>
     <body>
         <h1>Online ScoreBoard</h1>
-        <div class="local">
-            <h2>LOCAL</h2>
-            <input type="number" name="lpoints" value="0" class="points" min="0">
-        </div>
-        <div class="guest">
-            <h2>GUEST</h2>
-            <input type="number" name="gpoints" value="0" class="points" min="0">
+        <div class="localdiv">
+            <h2 class="local">LOCAL</h2>
+            
+            <button class="lbtn">-</button>
+            <input type="number" name="lpoints" class="points" readonly="true" value="0">
+            <button class="mbtn">+</button>
         </div>
     </body>
 </html>
