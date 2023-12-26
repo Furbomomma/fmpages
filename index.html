@@ -5,17 +5,25 @@
     <meta name="author" content="Yncor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online ScoreBoard</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="js/index.js"></script>
 </head>
     <body>
         <h1>Online ScoreBoard</h1>
+        <div class="pointsdiv">
         <div class="localdiv">
             <h2 class="local">LOCAL</h2>
-            
-            <button class="lbtn">-</button>
-            <input type="number" name="lpoints" class="points" readonly="true" value="0">
-            <button class="mbtn">+</button>
+            <button class="lbtn" onclick="remove('lpoints', 'lpoints')">-</button>
+            <input type="number" id="lpoints" name="lpoints" class="points" readonly="true" value="0">
+            <button class="mbtn" onclick="add('lpoints', 'lpoints')">+</button>
+        </div>
+
+        <div class="guestdiv">
+            <h2 class="guest">GUEST</h2>
+            <button class="lbtn" onclick="remove('gpoints', 'gpoints')">-</button>
+            <input type="number" id="gpoints" name="gpoints" class="points" readonly="true" value="0">
+            <button class="mbtn" onclick="add('gpoints', 'gpoints')">+</button>
+        </div>
         </div>
     </body>
 </html>
