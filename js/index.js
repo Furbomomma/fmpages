@@ -1,3 +1,12 @@
+if("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+        navigator.serviceWorker
+        .register("./sw.js")
+        .then(res => console.log("Service Worker registered"))
+        .catch(err => console.log("SW not registered", err))
+    })
+}
+
 function add(points, input) {
     points = document.getElementById(points).value;
     points = parseInt(points);
