@@ -1,11 +1,11 @@
 {
     "theme_color": "#312a00",
     "background_color": "#000000",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/yncor.github.io/index.html",
     "start_url": "/yncor.github.io/index.html",
     "name": "Pro ScoreBoard",
-    "short_name": "PSB",
+    "short_name": "ScoreBoard",
     "description": "Offline scoreboard for basketball games.",
     "icons": [
         {
