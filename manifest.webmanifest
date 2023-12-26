@@ -2,7 +2,7 @@
     "lang": "en-us",
     "theme_color": "#000000",
     "background_color": "#000000",
-    "display": "standalone",
+    "display": "fullscreen",
     "display_override": ["window-controls-overlay"],
     "orientation": "landscape",
     "scope": "/yncor.github.io/index.html",
