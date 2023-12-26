@@ -16,5 +16,7 @@ var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/style.css`,
-  `${GHPATH}/js/index.js`
+  `${GHPATH}/js/index.js`,
+  `${GHPATH}/assets/fonts/FiraCode/FiraCode-Bold.ttf`,
+  `${GHPATH}/assets/fonts/FiraCode/FiraCode-Retina.ttf`,
 ]
