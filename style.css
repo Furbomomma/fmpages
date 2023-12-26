@@ -19,6 +19,10 @@
     font-weight: normal;
 }
 
+#title-bar {
+    display: none;
+}
+
 *::selection{
     color: black;
     background-color: yellow;
