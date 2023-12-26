@@ -76,9 +76,9 @@ body{
     background-color: black;
     border-color: white;
     border-style: solid;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 37px;
-    margin: 10px;
+    font-size: 32px;
+    margin: 3px;
 }
