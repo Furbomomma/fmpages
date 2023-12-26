@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#312a00"/>
 
-    <title>Online ScoreBoard</title>
+    <title>ProScoreBoard</title>
 
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="manifest" href="manifest.webmanifest">
     <script src="js/index.js"></script>
 </head>
     <body>
-        <h1>Online ScoreBoard</h1>
+        <h1>Offline ScoreBoard</h1>
         <div class="pointsdiv">
         <div class="localdiv">
             <h2 class="local">LOCAL</h2>
-            <button class="lbtn" onclick="remove('lpoints', 'lpoints')">-</button>
+            <button class="btn" onclick="remove('lpoints', 'lpoints')">-</button>
             <input type="number" id="lpoints" name="lpoints" class="points" readonly="true" value="0">
-            <button class="mbtn" onclick="add('lpoints', 'lpoints')">+</button>
+            <button class="btn" onclick="add('lpoints', 'lpoints')">+</button>
         </div>
 
         <div class="guestdiv">
             <h2 class="guest">GUEST</h2>
-            <button class="lbtn" onclick="remove('gpoints', 'gpoints')">-</button>
+            <button class="btn" onclick="remove('gpoints', 'gpoints')">-</button>
             <input type="number" id="gpoints" name="gpoints" class="points" readonly="true" value="0">
-            <button class="mbtn" onclick="add('gpoints', 'gpoints')">+</button>
+            <button class="btn" onclick="add('gpoints', 'gpoints')">+</button>
         </div>
         </div>
     </body>
