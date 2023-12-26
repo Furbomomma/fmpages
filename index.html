@@ -17,38 +17,44 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="canonical" href="https://yncor.github.io/"/>
-    <script src="js/index.js"></script>
 </head>
     <body>
         <h1>Offline ScoreBoard</h1>
         <h2>Always use horizontally</h2>
+        <div class="rsdiv">
+            <img class="rotatescreen" src="assets/img/rotatescreen.png" alt="rotatescreen">
+        </div>
 
-        //
-        //points
-        //
         <div class="pointsdiv">
         <div class="localdiv">
             <h3 class="local">LOCAL</h3>
-            <button class="btn" onclick="remove('lpoints', 'lpoints')">-</button>
-            <input type="number" id="lpoints" name="lpoints" class="points" readonly="true" value="0" aria-label="Local points">
-            <button class="btn" onclick="add('lpoints', 'lpoints')">+</button>
+            <button class="btn" id="llepoints">-</button>
+            <input type="number" id="lpoints" name="lpoints" class="points" readonly="true" value=0 aria-label="Local points">
+            <button class="btn" id="lmpoints">+</button>
+
+            <h3 class="foulslabel">FOULS</h3>
+            <button class="btn" id="llefouls">-</button>
+            <input type="number" id="lfouls" name="lfouls" class="points" readonly="true" value="0" aria-label="Local fouls">
+            <button class="btn" id="lmfouls">+</button>
+
         </div>
 
         <div class="guestdiv">
             <h3 class="guest">GUEST</h3>
-            <button class="btn" onclick="remove('gpoints', 'gpoints')">-</button>
+            <button class="btn" id="glepoints">-</button>
             <input type="number" id="gpoints" name="gpoints" class="points" readonly="true" value="0" aria-label="Guest points">
-            <button class="btn" onclick="add('gpoints', 'gpoints')">+</button>
+            <button class="btn" id="gmpoints">+</button>
+
+            <h3 class="foulslabel">FOULS</h3>
+            <button class="btn" id="glefouls">-</button>
+            <input type="number" id="gfouls" name="gfouls" class="points" readonly="true" value="0" aria-label="Guest fouls">
+            <button class="btn" id="gmfouls">+</button>
         </div>
         </div>
-
-        //
-        //fouls
-        //
-        <div class="foulsdiv">
-            <div class="localfouls">
-
-            </div>
+        <div class="timerdiv">
+            <input type="text" class="timerinput" name="timerinput" id="timerinput" value="12:00" readonly="true">
+            <button class="btn">+</button>
         </div>
     </body>
+    <script src="js/fns.js"></script>
 </html>
