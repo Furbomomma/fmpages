@@ -63,3 +63,23 @@ body{
 .pointsdiv{
     text-align: center;
 }
+
+.mbtn{
+    color: yellow;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+}
+
+.lbtn{
+    color: yellow;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+}
