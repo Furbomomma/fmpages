@@ -1,7 +1,7 @@
 {
     "theme_color": "#312a00",
     "background_color": "#000000",
-    "display": "fullscreen",
+    "display": "standalone",
     "scope": "/yncor.github.io",
     "start_url": "/yncor.github.io",
     "name": "Pro ScoreBoard",
