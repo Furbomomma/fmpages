@@ -76,12 +76,4 @@ function remove(points, input) {
         points--;
         input.value = points;
     }
-    
-function timeinp(time, id){
-
-    time = document.getElementById(id).value;
-    time = toString(time);
-    let newtime =  time.replace(":", "");
-    console.log(newtime);
-}
 }
