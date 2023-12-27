@@ -29,113 +29,337 @@
     background-color: yellow;
 }
 
-
-h1{
-    font-family: "Fira Code";
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    margin: 0px;
-    margin-top: 40px;
-}
-
-h2{
-    font-family: "Fira Code Light";
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    margin: 2px;
-}
-
-h3{
-    font-family: "Fira Code Regular";
-    color: white;
-    margin: auto;
-    font-size: 50px;
-}
-
-body{
-    background-color: black;
-}
-
-.points{
-    background-color: black;
-    border-style: solid;
-    border-color: white;
-    color: yellow;
-    width: 100px;
-    height: 100px;
-    font-size: 80px;
-    align-content: center;
-    text-align: center;
-    min-width: 20px;
-}
-
 .points::-webkit-inner-spin-button{
     display: none;
 }
 
-.localdiv{
-    flex: 1;
-    margin: 10px;
-    min-width: 250px;
+@media only screen and (min-width: 480px){
+    h1{
+        font-family: "Fira Code";
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    
+    h2{
+        font-family: "Fira Code Light";
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin: 2px;
+    }
+    
+    h3{
+        font-family: "Fira Code Regular";
+        color: white;
+        margin: auto;
+        font-size: 50px;
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    .points{
+        background-color: black;
+        border-style: solid;
+        border-color: white;
+        color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 80px;
+        align-content: center;
+        text-align: center;
+        min-width: 20px;
+    }
+    
+    .localdiv{
+        flex: 1;
+        margin: 10px;
+        min-width: 150px;
+    }
+    
+    .guestdiv{
+        flex: 1;
+        margin: 10px;
+        min-width: 150px;
+    }
+    
+    .pointsdiv{
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .btn{
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        width: 40px;
+        height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        margin: 3px;
+    }
+    
+    .foulslabel{
+        margin-top: 70px;
+    }
+    
+    .rsdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .rotatescreen{
+        margin: 0px;
+        width: 90px;
+        height: 90px;
+        flex: 1;
+        min-width: 20px;
+    }
+    
+    .timerdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .timerinput{
+        background-color: black;
+        color: yellow;
+        border-color: white;
+        border-style: solid;
+        font-size: 30px;
+        width: 80px;
+        margin: 3px;
+    }
 }
 
-.guestdiv{
-    flex: 1;
-    margin: 10px;
-    min-width: 250px;
+
+
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-family: "Fira Code";
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    
+    h2{
+        font-family: "Fira Code Light";
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin: 2px;
+    }
+    
+    h3{
+        font-family: "Fira Code Regular";
+        color: white;
+        margin: auto;
+        font-size: 25px;
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    .points{
+        background-color: black;
+        border-style: solid;
+        border-color: white;
+        color: yellow;
+        width: 60px;
+        height: 60px;
+        font-size: 50px;
+        align-content: center;
+        text-align: center;
+        min-width: 20px;
+    }
+    
+    .localdiv{
+        flex: 1;
+        margin: 0px;
+        min-width: 100px;
+    }
+    
+    .guestdiv{
+        flex: 1;
+        margin: 0px;
+        min-width: 100px;
+    }
+    
+    .pointsdiv{
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .btn{
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        width: 35px;
+        height: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 2px;
+    }
+    
+    .foulslabel{
+        margin-top: 50px;
+    }
+    
+    .rsdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .rotatescreen{
+        margin: 0px;
+        width: 60px;
+        height: 60px;
+        flex: 1;
+        min-width: 20px;
+    }
+    
+    .timerdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .timerinput{
+        background-color: black;
+        color: yellow;
+        border-color: white;
+        border-style: solid;
+        font-size: 30px;
+        width: 80px;
+        margin: 10px;
+    }
 }
 
-.pointsdiv{
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+
+
+
+@media only screen and (max-width: 350px){
+    h1{
+        font-family: "Fira Code";
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    
+    h2{
+        font-family: "Fira Code Light";
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        margin: 2px;
+    }
+    
+    h3{
+        font-family: "Fira Code Regular";
+        color: white;
+        margin: auto;
+        font-size: 18px;
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    .points{
+        background-color: black;
+        border-style: solid;
+        border-color: white;
+        color: yellow;
+        width: 45px;
+        height: 45px;
+        font-size: 35px;
+        align-content: center;
+        text-align: center;
+        min-width: 10px;
+    }
+    
+    .localdiv{
+        flex: 1;
+        margin: 0px;
+        min-width: 70px;
+    }
+    
+    .guestdiv{
+        flex: 1;
+        margin: 0px;
+        min-width: 70px;
+    }
+    
+    .pointsdiv{
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .btn{
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        width: 25px;
+        height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin: 1px;
+    }
+    
+    .foulslabel{
+        margin-top: 50px;
+    }
+    
+    .rsdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .rotatescreen{
+        margin: 0px;
+        width: 40px;
+        height: 40px;
+        flex: 1;
+        min-width: 20px;
+    }
+    
+    .timerdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .timerinput{
+        background-color: black;
+        color: yellow;
+        border-color: white;
+        border-style: solid;
+        font-size: 20px;
+        width: 55px;
+        margin: 10px;
+    }
 }
 
-.btn{
-    color: yellow;
-    background-color: black;
-    border-color: white;
-    border-style: solid;
-    width: 40px;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    margin: 3px;
-}
-
-.foulslabel{
-    margin-top: 70px;
-}
-
-.rsdiv{
-    display: flexbox;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.rotatescreen{
-    margin: 0px;
-    width: 90px;
-    height: 90px;
-    flex: 1;
-    min-width: 20px;
-}
-
-.timerdiv{
-    display: flexbox;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.timerinput{
-    background-color: black;
-    color: yellow;
-    border-color: white;
-    border-style: solid;
-    font-size: 30px;
-    width: 80px;
-    margin: 3px;
-}
