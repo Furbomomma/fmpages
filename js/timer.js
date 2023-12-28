@@ -1,22 +1,38 @@
-var countDownDate = new Date().getTime() + 12 * 60 * 1000;
-var running = true;
+var timeLimitInMinutes = 12;
+var timeLimitInSecond = timeLimitInMinutes * 60;
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+var timerElement = document.getElementById("timer");
+var tstartbtn = document.getElementById("tstartbtn");
+var tstopbtn = document.getElementById("tstopbtn");
 
-  var now = new Date().getTime();
+var countdown;
 
-  var distance = countDownDate - now;
+tstartbtn.addEventListener("click", startTimer, false);
 
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+tstopbtn.addEventListener("click", stopTimer, false);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("timerinput").innerHTML = minutes + ":" + seconds;
+Notification.requestPermission((result) => {
+  console.log(result);
+});
+function startTimer(){
+  countdown = setInterval(function() {
+    timeLimitInSecond--;
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timerinput").getAttribute("value") = "EXPIRED";
-  }
+    var minutes = Math.floor(timeLimitInSecond / 60);
+    var seconds = Math.floor(timeLimitInSecond % 60);
+
+    timerElement.textContent = minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+
+    if(timeLimitInSecond <= 0){
+      clearInterval(countdown);
+      navigator.vibrate(200);
+      alert("Time's up.");
+    }
+
 }, 1000);
+}
+
+
+function stopTimer(){
+  clearInterval(countdown);
+}
