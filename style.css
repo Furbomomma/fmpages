@@ -27,6 +27,8 @@
 *::selection{
     color: black;
     background-color: yellow;
+    text-align: center;
+    text-align: -webkit-center;
 }
 
 .points::-webkit-inner-spin-button{
@@ -136,8 +138,6 @@
         display: flexbox;
         flex-wrap: wrap;
         text-align: center;
-        justify-content: center;
-        align-items: center;
     }
     
     .timer{
@@ -160,6 +160,25 @@
         border-style: solid;
         font-family: Arial, Helvetica, sans-serif;
         margin: 15px;
+    }
+
+    .notisdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .notis{
+        flex: 1;
+    }
+
+    label{
+        font-family: "Fira Code Regular";
+        margin: 0px;
+        font-size: 20px;
+        flex: 2;
+        color: white;
+
     }
 }
 
@@ -272,12 +291,46 @@
         color: yellow;
         border-color: white;
         border-style: solid;
-        font-size: 30px;
-        width: 80px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        font-size: 25px;
+        width: 65px;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .tbtn{
+        font-size: 25px;
+        width:70px;
+        height: 40px;
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+    }
+
+    .notisdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .notis{
+        flex: 1;
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label{
+        font-family: "Fira Code Regular";
+        margin: 0px;
+        font-size: 15px;
+        flex: 2;
+        color: white;
+
     }
 }
 
@@ -391,12 +444,46 @@
         color: yellow;
         border-color: white;
         border-style: solid;
-        font-size: 30px;
-        width: 80px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        font-size: 20px;
+        width: 55px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .tbtn{
+        font-size: 25px;
+        width:70px;
+        height: 40px;
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px;
+    }
+
+    .notisdiv{
+        display: flexbox;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .notis{
+        flex: 1;
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label{
+        font-family: "Fira Code Regular";
+        margin: 0px;
+        font-size: 15px;
+        flex: 2;
+        color: white;
+
     }
 }
 
