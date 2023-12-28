@@ -37,10 +37,10 @@ function timeended(){
 		navigator.vibrate(200);
 	}else if(perm == "denied"){
 		alert("Time's up, game has ended.");
-		location.reload(true);
+		window.location.reload(true);
 		return;
 	}
-	location.reload(true);
+	window.location.reload(true);
 }
 
 function stopTimer(){

@@ -27,7 +27,6 @@
 *::selection{
     color: black;
     background-color: yellow;
-    text-align: center;
     text-align: -webkit-center;
 }
 
@@ -47,7 +46,7 @@
     h1{
         font-family: "Fira Code";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 40px;
         margin: 0px;
         margin-top: 40px;
@@ -56,7 +55,7 @@
     h2{
         font-family: "Fira Code Light";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 25px;
         margin: 2px;
     }
@@ -81,7 +80,7 @@
         height: 100px;
         font-size: 80px;
         align-content: center;
-        text-align: center;
+        text-align: -webkit-center;
         min-width: 20px;
     }
     
@@ -101,7 +100,7 @@
         color: black;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .btn{
@@ -123,7 +122,7 @@
     .rsdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .rotatescreen{
@@ -137,7 +136,7 @@
     .timerdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .timer{
@@ -165,11 +164,16 @@
     .notisdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
 
     .notis{
         flex: 1;
+        color: yellow;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     label{
@@ -193,7 +197,7 @@
     h1{
         font-family: "Fira Code";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 25px;
         margin: 0px;
         margin-top: 30px;
@@ -202,7 +206,7 @@
     h2{
         font-family: "Fira Code Light";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 20px;
         margin: 2px;
     }
@@ -227,7 +231,7 @@
         height: 60px;
         font-size: 50px;
         align-content: center;
-        text-align: center;
+        text-align: -webkit-center;
         min-width: 20px;
     }
     
@@ -247,7 +251,7 @@
         color: black;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .btn{
@@ -269,7 +273,7 @@
     .rsdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .rotatescreen{
@@ -283,7 +287,7 @@
     .timerdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .timer{
@@ -312,7 +316,7 @@
     .notisdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
 
     .notis{
@@ -322,6 +326,7 @@
         border-color: white;
         border-style: solid;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: -webkit-center;
     }
 
     label{
@@ -346,7 +351,7 @@
     h1{
         font-family: "Fira Code";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 18px;
         margin: 0px;
         margin-top: 30px;
@@ -355,7 +360,7 @@
     h2{
         font-family: "Fira Code Light";
         color: white;
-        text-align: center;
+        text-align: -webkit-center;
         font-size: 13px;
         margin: 2px;
     }
@@ -380,7 +385,7 @@
         height: 45px;
         font-size: 35px;
         align-content: center;
-        text-align: center;
+        text-align: -webkit-center;
         min-width: 10px;
     }
     
@@ -400,7 +405,7 @@
         color: black;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .btn{
@@ -422,7 +427,7 @@
     .rsdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .rotatescreen{
@@ -436,7 +441,7 @@
     .timerdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
     
     .timer{
@@ -465,7 +470,7 @@
     .notisdiv{
         display: flexbox;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: -webkit-center;
     }
 
     .notis{
@@ -475,6 +480,7 @@
         border-color: white;
         border-style: solid;
         font-family: Arial, Helvetica, sans-serif;
+        text-align: -webkit-center;
     }
 
     label{
